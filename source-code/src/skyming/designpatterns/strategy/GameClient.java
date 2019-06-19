@@ -5,7 +5,8 @@ public class GameClient {
         Character kight = new Character();
         kight.setWeapon(new SwordBehavior());
         kight.fight();
-
+        kight.setWeapon(new ShieldBehavior());
+        kight.fight();
         kight.setWeapon(new ArrowBehavior());
         kight.fight();
     }
