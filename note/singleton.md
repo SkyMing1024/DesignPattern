@@ -119,4 +119,6 @@ public enum Singleton6 {
 #### 应用
 
 #### 参考
+[菜鸟教程-单例模式](https://www.runoob.com/design-pattern/singleton-pattern.html)  
+[Graphic Design Patterns - Signleton Pattern(中文)](https://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html#id1)
 
