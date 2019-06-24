@@ -1,8 +1,11 @@
 package skyming.designpatterns.sigleton;
 
+/**
+ * 懒汉模式（线程不安全）
+ */
 public class SingletonLazy {
     private static SingletonLazy instance;
-    public SingletonLazy() {
+    private SingletonLazy() {
     }
     public static SingletonLazy getInstance(){
         if (instance == null){

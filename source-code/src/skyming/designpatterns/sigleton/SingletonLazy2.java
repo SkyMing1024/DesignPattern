@@ -1,8 +1,11 @@
 package skyming.designpatterns.sigleton;
 
+/**
+ * 懒汉模式（线程安全）
+ */
 public class SingletonLazy2 {
     private static SingletonLazy2 instance;
-    public SingletonLazy2() {
+    private SingletonLazy2() {
     }
     public static synchronized SingletonLazy2 getInstance(){
         if (instance == null){
