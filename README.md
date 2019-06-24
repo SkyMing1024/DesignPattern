@@ -6,7 +6,7 @@
 
 ### 创建型
 
-1. 单例模式
+1. [单例模式](https://github.com/SkyMing1024/DesignPattern/blob/master/note/singleton.md)
 2. 抽象工厂模式
 3. 工厂方法模式
 4. 建造者模式 
@@ -24,7 +24,7 @@
 
 ### 行为型
 
-13. 策略模式
+13. [策略模式](https://github.com/SkyMing1024/DesignPattern/blob/master/note/strategy.md)
 
 14. 模板方法模式
 
