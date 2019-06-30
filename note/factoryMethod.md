@@ -88,6 +88,6 @@ public class Client {
 
  [工厂方法模式(Factory Method Pattern)](https://design-patterns.readthedocs.io/zh_CN/latest/creational_patterns/factory_method.html#id15)
 
-[工厂方法]([https://cyc2018.github.io/CS-Notes/#/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F?id=_3-%e5%b7%a5%e5%8e%82%e6%96%b9%e6%b3%95%ef%bc%88factory-method%ef%bc%89](https://cyc2018.github.io/CS-Notes/#/notes/设计模式?id=_3-工厂方法（factory-method）))
+[工厂方法](https://cyc2018.github.io/CS-Notes/)
 
-[[设计模式（六）——JDK中的那些工厂方法](https://www.hollischuang.com/archives/1408)]
+[设计模式（六）——JDK中的那些工厂方法](https://www.hollischuang.com/archives/1408)
