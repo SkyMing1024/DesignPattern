@@ -8,7 +8,7 @@
 
 1. [单例模式](https://github.com/SkyMing1024/DesignPattern/blob/master/note/singleton.md)
 2. [抽象工厂模式](https://github.com/SkyMing1024/DesignPattern/blob/master/note/factory.md)
-3. 工厂方法模式
+3. [工厂方法模式](https://github.com/SkyMing1024/DesignPattern/blob/master/note/factoryMethod.md)
 4. 建造者模式 
 5. 原型模式
 
@@ -47,6 +47,6 @@
 23. 访问者模式
 
 ### 其他
-* 简单工厂模式
+* [简单工厂模式](https://github.com/SkyMing1024/DesignPattern/blob/master/note/simpleFactory.md)
 
     
