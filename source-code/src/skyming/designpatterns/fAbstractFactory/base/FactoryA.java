@@ -1,4 +1,4 @@
-package skyming.designpatterns.fAbstractFactory;
+package skyming.designpatterns.fAbstractFactory.base;
 
 public class FactoryA extends AbstractFactory{
     @Override

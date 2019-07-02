@@ -1,5 +1,7 @@
-package skyming.designpatterns.fAbstractFactory.base;
+package skyming.designpatterns.fAbstractFactory;
 
-// 轿车
+/**
+ * 轿车
+ */
 public class SedanCar {
 }
