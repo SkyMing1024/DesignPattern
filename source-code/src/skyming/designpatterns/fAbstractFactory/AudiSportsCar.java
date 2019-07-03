@@ -1,8 +1,8 @@
 package skyming.designpatterns.fAbstractFactory;
 
-/**
- * Author : ming.tian
- * Date : 23:03 2019/7/3
- */
-public class AudiSportsCar {
+public class AudiSportsCar extends SportsCar {
+    @Override
+    public void run() {
+        System.out.println("奥迪跑车");
+    }
 }

@@ -3,5 +3,7 @@ package skyming.designpatterns.fAbstractFactory;
 /**
  * 轿车
  */
-public class SedanCar {
+public abstract class SedanCar extends Car{
+    @Override
+    public abstract void run();
 }
