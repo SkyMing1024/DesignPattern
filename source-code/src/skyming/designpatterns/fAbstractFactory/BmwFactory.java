@@ -1,8 +1,15 @@
 package skyming.designpatterns.fAbstractFactory;
 
-/**
- * Author : ming.tian
- * Date : 23:21 2019/7/3
- */
-public class BmwFactory {
+public class BmwFactory extends CarFactory{
+    @Override
+    SedanCar createSedanCar() {
+        SedanCar c = new BmwSedanCar();
+        return c;
+    }
+
+    @Override
+    SportsCar createSportsCar() {
+        SportsCar s = new BmwSportsCar();
+        return s;
+    }
 }

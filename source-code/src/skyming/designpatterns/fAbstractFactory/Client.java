@@ -1,8 +1,9 @@
 package skyming.designpatterns.fAbstractFactory;
 
-/**
- * Author : ming.tian
- * Date : 22:36 2019/7/4
- */
 public class Client {
+    public static void main(String[] args){
+            CarFactory benzFactory = new BenzFactory();
+            Car car = benzFactory.createSedanCar();
+            car.run();
+    }
 }
