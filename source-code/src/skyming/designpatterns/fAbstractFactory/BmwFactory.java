@@ -12,4 +12,10 @@ public class BmwFactory extends CarFactory{
         SportsCar s = new BmwSportsCar();
         return s;
     }
+
+    @Override
+    ElectricCar createElectricCar() {
+        ElectricCar e = new BmwElectricCar();
+        return e;
+    }
 }

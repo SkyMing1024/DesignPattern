@@ -1,3 +1,7 @@
+
+
+
+
 ## 抽象工厂模式
 
 ### 前言
@@ -155,10 +159,72 @@ public class Client {
 
 ```java
 //宝马汽车厂
+public class BmwFactory extends CarFactory{
+    // 可以生产轿车
+    @Override
+    SedanCar createSedanCar() {
+        SedanCar c = new BmwSedanCar();
+        return c;
+    }
+	// 可以生产跑车
+    @Override
+    SportsCar createSportsCar() {
+        SportsCar s = new BmwSportsCar();
+        return s;
+    }
+}
 ```
 
 
 
 #### 如何新增产品？
 
-随着科技的进步，电动汽车已经上市了，各大厂商都开始跟进生产电动汽车。
+随着科技的进步，电动汽车已经上市了，各大厂商都开始跟进生产电动汽车。现在三大厂商都要生产电动汽车。
+
+共有三个步骤：
+
+1. 增加产品父类
+
+   ```java
+   public class ElectricCar extends Car {
+       @Override
+       void run() {}
+   }
+   ```
+
+2. 增加产品子类，显然子类继承父类
+
+   ```java
+   public class AudiElectricCar extends ElectricCar {
+       @Override
+       void run() {}
+   }
+   ```
+
+3. 各工厂生产（工厂中增加生产新产品的方法）
+
+   ```java
+   public abstract class CarFactory {
+       abstract SedanCar createSedanCar();
+       abstract SportsCar createSportsCar();
+       // 新增生产电动汽车的方法
+       abstract ElectricCar createElectricCar();
+   }
+   ```
+
+   ```java
+   public class AudiFactory extends CarFactory{
+       /*
+       * 省略
+       */
+       // 新增生产电动汽车的方法
+       @Override
+       ElectricCar createElectricCar() {
+           ElectricCar e = new AudiElectricCar();
+           return e;
+       }
+   }
+   ```
+
+   
+
