@@ -201,7 +201,7 @@ public class BmwFactory extends CarFactory{
    }
    ```
 
-3. 各工厂生产（工厂中增加生产新产品的方法）
+3. 各工厂生产新产品（工厂中增加生产新产品的方法）
 
    ```java
    public abstract class CarFactory {
@@ -226,5 +226,15 @@ public class BmwFactory extends CarFactory{
    }
    ```
 
-   
+### 抽象工厂模式的优点与缺点
+
+#### 优点
+
+* **降低耦合**。抽象工厂模式将具体类的生成与客户端隔离开，延迟到具体工厂的子类中。这样将对象的创建封装起来，可以减少客户端与具体产品的依赖，从而实现高内聚低耦合的目的
+* **更符合开闭原则**。可以很方便地增加产品族和具体工厂，符合“开闭原则”。
+
+
+
+
+
 
